@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>StorePAge</title>
+        <meta name ="description" content ="This is the description">
+        <link rel ="stylesheet" href="style.css"/>
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class ="main-nav nav">
+                <ul>
+                    <li class = "ul-box__item"><a href= "/">HOME</a></li>
+                    <li class = "ul-box__item" ><a href= "/about">ABOUT</a></li>
+                    <li class = "ul-box__item"><a href= "/login">LOG OUT</a></li>
+                </ul>
+            </nav>
+            
+            <h1 class="band-name band-name-large">Online Food Market</h1>
+        </header>
+        <section class ="container content-section">
+            <h2 class="section-header">MEALS</h2>
+            <div class="shop-items">    
+                <div class= "shop-item">
+                    <span class="shop-item-title">Pizza</span>
+                    <img class="shop-item-image" src = "Pizza.jpg" width="200" height="200">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Burrito</span>
+                    <img class="shop-item-image" src = "burriti.jpg" width="200" height="200">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class ="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class ="shop-item-title">FriedEggWithBread</span>
+                    <img class="shop-item-image" src = "FriedEggWithBread.jpg" width="200" height="200">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class ="shop-item-title">hamburger</span>
+                    <img class="shop-item-image" src = "hamburger.jpg " width="200" height="200">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$15.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class ="container content-section">
+            <h2 class="section-header">DESERTS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">ChocoMuffin</span>
+                    <img class="shop-item-image" src = "ChocMuffin.jpg" width="200" height="200">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">TangerineCake</span>
+                    <img class="shop-item-image" src = "TangerineCake.jpg" width="200" height="200" >
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$17.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADDTO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">TOTAL</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="footer">
+            <h3>Online Food Market</h3>
+            <ul>
+                <li><img src = "#"></li>
+                <li><img src = "#"></li>
+                <li><img src = "#"></li>
+            </ul>
+        </footer>
+    </body>
+ </html>
